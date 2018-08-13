@@ -3,8 +3,33 @@ body {
   text-align: center;
 }
 
+p {
+  font-size: 14px;
+}
+
 .intro {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+}
+
+.process {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.outro {
+  text-align: left;
+  background-color: dimgray;
+}
+
+
+.link {
+  color: white;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 11px;
+  color: white;
 }
 
 #title {
@@ -13,7 +38,7 @@ body {
   font-weight: bold;
 }
 
-#heading {
+#process-heading {
   font-size: 32px;
   font-weight: bold;
 }
