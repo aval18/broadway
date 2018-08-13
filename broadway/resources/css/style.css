@@ -1,6 +1,11 @@
 body {
   font-family: helvetica;
-  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
 }
 
 p {
@@ -9,43 +14,45 @@ p {
 
 .intro {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  text-align: center;
+  color: white;
 }
 
-.process {
+.intro h1 {
+  font-size: 70px;
+}
+
+.supporting {
+  text-align: center;
+}
+
+.supporting h2 {
+  font-size: 32px;
+}
+
+.supporting h3 {
   font-size: 23px;
-  font-weight: bold;
+}
+
+.supporting-item p {
+  font-size: 14px;
+}
+
+.new-york h2 {
+  font-size: 23px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg');
+  text-align: center;
 }
 
 .outro {
   text-align: left;
   background-color: dimgray;
+  font-size: 11px;
+  color: white;
 }
 
 
 .link {
   color: white;
   font-size: 18px;
-}
-
-#copyright {
-  font-size: 11px;
-  color: white;
-}
-
-#title {
-  color: white;
-  font-size: 70px;
-  font-weight: bold;
-}
-
-#process-heading {
-  font-size: 32px;
-  font-weight: bold;
-}
-
-#new-york {
-  font-size: 23px;
-  font-weight: bold;
-  color: white;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 }
